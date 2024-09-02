@@ -24,17 +24,15 @@ int main(int argc, char* argv[]) {
 
 &nbsp;
 ## 2 程序运行
-- 如果使用的是绝影Lite3的官方手柄，请在手柄中安装retroid.apk；如果使用的是绝影X30的官方手柄，请在手柄中安装skydroid.apk。  
+- 无论是Lite3还是X30的官方手柄都在手柄上安装controlapp.apk，安装之后的界面如图所示。  
 
-   <img src="./doc/app_icon.jpg" alt="a" style="zoom:60%;" />
+   <img src="./doc/app_icon.png" alt="a" style="zoom:60%;" />
 
-- 手柄连接上开发主机的网络，然后打开app，点击左上角按钮，配置需要连接的开发主机的ip地址和程序接收手柄数据的端口号。
-
-   <img src="./doc/app_retroid.png" alt="a" style="zoom:60%;" />
-
+- 手柄连接上开发主机的网络，然后打开app，点击左上角按钮，配置需要连接的开发主机的ip地址和程序接收手柄数据的端口号,图中以Lite3官方遥控手柄Retroid为例。
+   <p align="center"><img src="./doc/app_retroid.png" alt="a" style="transform: rotate(270deg)zoom:35%" /></p>
    <p align="center">app显示界面</p>
 
-   <img src="./doc/ip_config.png" alt="s" style="zoom:67%;" />
+   <p align="center"> <img src="./doc/ip_config.png" alt="s" style="zoom:40%;" /> </p>
 
    <p align="center">ip配置界面</p>
 
@@ -51,11 +49,11 @@ int main(int argc, char* argv[]) {
       ```
 - 操作手柄物理按键，终端中会显示手柄物理按键的触发信息：
 
-   <img src="./doc/terminal_show_info.png" alt="a" style="zoom:75%;" />
+   <p align="center"><img src="./doc/terminal_show_info.png" alt="a" style="zoom:70%;" /></p>
 
    <p align="center">Skydroid手柄通讯成功显示界面</p>
 
-   <img src="./doc/terminal_show_info_retroid.png" alt="s" style="zoom:75%;" />
+   <p align="center"><img src="./doc/terminal_show_info_retroid.png" alt="s" style="zoom:70%;" /></p>
 
    <p align="center">Retroid手柄通讯成功显示界面</p>
 
